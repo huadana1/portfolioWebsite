@@ -1,1 +1,106 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
 
+#parallax {
+    background-image: url("SCSI_Sunset.JPEG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    height: 100%; 
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#introHeading {
+    text-align: center;
+    color: #077a2d;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: impact;
+}
+
+/*nav bar*/
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    background-color: none;
+    opacity: 0.85;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #553333;
+    text-align: center;
+    padding: 12px 25px;
+    font-size: 30px;
+    font-family: fantasy;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #077a2d;
+}
+
+/*home page*/
+#home {
+    background-color: #dddddd;
+    background-size: cover;
+    padding: 10px;
+    overflow: auto;
+}
+
+#professional {
+    width: 25%;
+    margin-left: 3%;
+    border-radius: 100%;
+    float: left;
+}
+
+#about {
+    padding: 5px;
+    right: 5%;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    vertical-align: center;
+}
+
+/*projects page*/
+#work{
+    margin-left: 30px;
+    border-radius: 10px;
+    float: left;
+    width: 250px;
+    border: 1px solid #dddddd;
+}
+
+#work:hover {
+    background-color: #077a2d;
+}
+
+#work img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#description {
+    padding: 15px;
+    text-align: center;
+}
